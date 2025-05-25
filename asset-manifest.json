@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venom2024-main/static/css/main.7a71ace4.css",
-    "main.js": "/venom2024-main/static/js/main.ed7d58c5.js",
+    "main.js": "/venom2024-main/static/js/main.6094c54f.js",
     "static/js/453.c20dc564.chunk.js": "/venom2024-main/static/js/453.c20dc564.chunk.js",
     "static/media/beach resort.png": "/venom2024-main/static/media/beach resort.52979ba42b4120b4f1e5.png",
     "static/media/Giblivenom.png": "/venom2024-main/static/media/Giblivenom.e3725b2f601d0c16692c.png",
@@ -38,11 +38,11 @@
     "index.html": "/venom2024-main/index.html",
     "static/media/html.svg": "/venom2024-main/static/media/html.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "main.7a71ace4.css.map": "/venom2024-main/static/css/main.7a71ace4.css.map",
-    "main.ed7d58c5.js.map": "/venom2024-main/static/js/main.ed7d58c5.js.map",
+    "main.6094c54f.js.map": "/venom2024-main/static/js/main.6094c54f.js.map",
     "453.c20dc564.chunk.js.map": "/venom2024-main/static/js/453.c20dc564.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a71ace4.css",
-    "static/js/main.ed7d58c5.js"
+    "static/js/main.6094c54f.js"
   ]
 }
