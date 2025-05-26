@@ -23,32 +23,31 @@ function App() {
 
   return (
     <>
-    {loading ? (
-      <Preloader />
-    ) : (
-      <div style={{ position: "relative" }}>
-        <ParticlesComponent id="particles" />
-        <div style={{ position: "relative", zIndex: 1 }}>
-          {/* Your content components go here */}
-          <Router>
-            <Navbar />
-            <Routes>
-              <Route path="/venom2024" element={<Home />} />
-              <Route path="/" element={<Home />} />
-              <Route path="" element={<Home />} />
-
-              <Route path="/Skills" element={<Skills />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/wordpress" element={<Wordpress />} />
-              <Route path="/coding" element={<Coding />} />
-            </Routes>
-          </Router>
+      {loading ? (
+        <Preloader />
+      ) : (
+        <div style={{ position: "relative" }}>
+          <ParticlesComponent id="particles" />
+          <div style={{ position: "relative", zIndex: 1 }}>
+            {/* Your content components go here */}
+            {/* Set the basename to match your hosting sub-path */}
+            <Router basename="/venom2024-main">
+              <Navbar />
+              <Routes>
+                {/* Adjust routes to be relative paths */}
+                <Route path="/" element={<Home />} />
+                <Route path="/venom2024" element={<Home />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/wordpress" element={<Wordpress />} />
+                <Route path="/coding" element={<Coding />} />
+              </Routes>
+            </Router>
+          </div>
         </div>
-      </div>
-    )}
-  </>
-);
+      )}
+    </>
+  );
 }
-
 
 export default App;
