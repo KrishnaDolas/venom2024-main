@@ -51,7 +51,7 @@ function HomeCarousel() {
               </h1>
             </div>
             <a
-              href="https://drive.google.com/file/d/1T2Xqs5AJF9Ln0AowL44p1lTYWsRZfzAf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1T2Xqs5AJF9Ln0AowL44p1lTYWsRZfzAf/view"
               target="_blank"
               rel="noopener noreferrer"
             >
