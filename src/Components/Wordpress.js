@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import CountUp from 'react-countup';
-import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import CountUp from "react-countup";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 
-import img1 from '../Assets/sevenseascj.com.jpg';
-import img2 from '../Assets/rajmudratransport.jpg';
-import img3 from '../Assets/kpproduction.in.jpg';
-import img4 from '../Assets/jayakhanna.com.jpg';
-import img5 from '../Assets/Emcee Manoj.com.jpg';
-import img6 from '../Assets/mystiiquereading.com.jpg';
+import img1 from "../Assets/sevenseascj.com.jpg";
+import img2 from "../Assets/rajmudratransport.jpg";
+import img3 from "../Assets/kpproduction.in.jpg";
+import img4 from "../Assets/jayakhanna.com.jpg";
+import img5 from "../Assets/Emcee Manoj.com.jpg";
+import img6 from "../Assets/mystiiquereading.com.jpg";
 
 function Wordpress() {
   const navigate = useNavigate();
@@ -34,16 +34,24 @@ function Wordpress() {
   }, []);
 
   const handleProjectsClick = () => {
-    navigate('/Coding');
+    navigate("/Coding");
   };
 
   const images = [
-    { src: img1, alt: 'Seven Sea\'s', link: 'http://sevenseascj.com/' },
-    { src: img2, alt: 'Raj Mudar Transport', link: 'http://rajmudratransport.in/' },
-    { src: img3, alt: 'K P Production', link: 'https://kpproduction.in/' },
-    { src: img4, alt: 'Jaya Khanna', link: 'https://jayakhanna.com/' },
-    { src: img5, alt: 'Emcee Manoj', link: 'https://emceemanoj.com/' },
-    { src: img6, alt: 'Mystiquereading', link: 'https://mystiiquereading.com/' },
+    { src: img1, alt: "Seven Sea's", link: "http://sevenseascj.com/" },
+    {
+      src: img2,
+      alt: "Raj Mudar Transport",
+      link: "http://rajmudratransport.in/",
+    },
+    { src: img3, alt: "K P Production", link: "https://kpproduction.in/" },
+    { src: img4, alt: "Jaya Khanna", link: "https://jayakhanna.com/" },
+    { src: img5, alt: "Emcee Manoj", link: "https://emceemanoj.com/" },
+    {
+      src: img6,
+      alt: "Mystiquereading",
+      link: "https://mystiiquereading.com/",
+    },
   ];
 
   return (
@@ -114,6 +122,27 @@ function Wordpress() {
           transform: translateY(-8px);
           box-shadow: 0 12px 20px rgba(0,0,0,0.2);
         }
+
+        /* Tooltip */
+.tooltip {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.card:hover .tooltip {
+  opacity: 1;
+}
+
         .card img {
           width: 100%;
           height: auto;
@@ -201,6 +230,7 @@ function Wordpress() {
           <div className="card" key={index}>
             <a href={img.link} target="_blank" rel="noopener noreferrer">
               <img src={img.src} alt={img.alt} />
+              <span className="tooltip">{img.alt}</span>
             </a>
           </div>
         ))}
@@ -210,45 +240,71 @@ function Wordpress() {
       <section className="stats-section">
         <div className="stat">
           <i className="bi bi-emoji-smile"></i>
-          <CountUp start={0} end={happyClients} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={happyClients}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Happy Clients</p>
         </div>
         <div className="stat">
           <i className="bi bi-folder"></i>
-          <CountUp start={0} end={projects} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={projects}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Projects</p>
         </div>
         <div className="stat">
           <i className="bi bi-broadcast"></i>
-          <CountUp start={0} end={liveProjects} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={liveProjects}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Live Projects</p>
         </div>
         <div className="stat">
           <i className="bi bi-gear"></i>
-          <CountUp start={0} end={totalPlugins} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={totalPlugins}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Plugins Used</p>
         </div>
       </section>
 
       {/* Plugins & Progress Bars */}
-      <h2 className="section-title" style={{ marginTop: '50px' }}>Plugins I Use</h2>
+      <h2 className="section-title" style={{ marginTop: "50px" }}>
+        Plugins I Use
+      </h2>
       <div className="plugins-section">
         {[
-          { title: 'Elementor', progress: 90, color: 'bg-success' },
-          { title: 'Beaver Builder', progress: 90, color: 'bg-info' },
-          { title: 'WP Backery', progress: 60, color: 'bg-warning' },
-          { title: 'Divi', progress: 80, color: 'bg-danger' },
-          { title: 'Contact Form 7', progress: 90, color: 'bg-success' },
-          { title: 'WP Forms', progress: 90, color: 'bg-info' },
-          { title: 'Envato Elements', progress: 90, color: 'bg-warning' },
-          { title: 'Essential Addons', progress: 90, color: 'bg-danger' },
-          { title: 'Table Some', progress: 90, color: 'bg-success' },
-          { title: 'Templately', progress: 80, color: 'bg-danger' },
-          { title: 'Smart Slider', progress: 90, color: 'bg-info' },
-          { title: 'Sticky Nav Bar', progress: 100, color: 'bg-danger' },
+          { title: "Elementor", progress: 90, color: "bg-success" },
+          { title: "Beaver Builder", progress: 90, color: "bg-info" },
+          { title: "WP Backery", progress: 60, color: "bg-warning" },
+          { title: "Divi", progress: 80, color: "bg-danger" },
+          { title: "Contact Form 7", progress: 90, color: "bg-success" },
+          { title: "WP Forms", progress: 90, color: "bg-info" },
+          { title: "Envato Elements", progress: 90, color: "bg-warning" },
+          { title: "Essential Addons", progress: 90, color: "bg-danger" },
+          { title: "Table Some", progress: 90, color: "bg-success" },
+          { title: "Templately", progress: 80, color: "bg-danger" },
+          { title: "Smart Slider", progress: 90, color: "bg-info" },
+          { title: "Sticky Nav Bar", progress: 100, color: "bg-danger" },
         ].map((item, index) => (
           <div key={index} className="progress-group">
-            <h4 style={{ color: '#fdf5e6' }}>{item.title} :</h4>
+            <h4 style={{ color: "#fdf5e6" }}>{item.title} :</h4>
             <div className="progress">
               <div
                 className={`progress-bar progress-bar-striped progress-bar-animated ${item.color}`}

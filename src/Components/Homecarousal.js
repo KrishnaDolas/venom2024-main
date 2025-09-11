@@ -1,13 +1,13 @@
-import React from 'react';
-import { ReactTyped } from 'react-typed';
-import propic from '../Assets/Giblivenom.png';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import XIcon from '@mui/icons-material/X';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { GitHub } from '@mui/icons-material';
-import Button51 from './Button51';
+import React from "react";
+import { ReactTyped } from "react-typed";
+import propic from "../Assets/Giblivenom.png";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import XIcon from "@mui/icons-material/X";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import { GitHub } from "@mui/icons-material";
+import Button51 from "./Button51";
 
 function HomeCarousel() {
   const divstyle = {
@@ -20,8 +20,8 @@ function HomeCarousel() {
 
   const iconStyle = {
     fontSize: 40,
-    margin: '0 10px',
-    transition: 'transform 0.2s',
+    margin: "0 10px",
+    transition: "transform 0.2s",
   };
 
   return (
@@ -34,14 +34,23 @@ function HomeCarousel() {
       <div className="container my-5">
         <div className="row align-items-center">
           {/* Text Content */}
-          <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start" style={divstyle}>
+          <div
+            className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start"
+            style={divstyle}
+          >
             <h1>Hello !</h1>
             <h1>I AM KRISHNA DOLAS</h1>
             <div>
               <h1>
                 I'm a{" "}
                 <ReactTyped
-                  strings={["WEB DEVELOPER", "Software Developer", "Designer", "Wordpress Developer", "Writer"]}
+                  strings={[
+                    "WEB DEVELOPER",
+                    "Software Developer",
+                    "Designer",
+                    "Wordpress Developer",
+                    "Writer",
+                  ]}
                   typeSpeed={10}
                   loop
                   backSpeed={10}
@@ -64,7 +73,7 @@ function HomeCarousel() {
               src={propic}
               className="rounded-5 mx-auto d-block mb-4"
               alt="venomspic"
-              style={{ maxWidth: '70%', height: 'auto' }}
+              style={{ maxWidth: "70%", height: "auto" }}
             />
             {/* Social Icons */}
             <div className="d-flex justify-content-center flex-wrap">

@@ -1,23 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import CountUp from 'react-countup';
-import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
-import GitHub from '@mui/icons-material/GitHub';
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import CountUp from "react-countup";
+import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
+import GitHub from "@mui/icons-material/GitHub";
 
-import img1 from '../Assets/TweetX.png';
-import img2 from '../Assets/Punebizz.png';
-import img3 from '../Assets/Agrovenom.png';
-import img4 from '../Assets/Lightbulb.png';
-import img5 from '../Assets/music app.png';
-import img6 from '../Assets/Wetherforcast app.png';
-import img7 from '../Assets/oldwebsite.png';
-import img8 from '../Assets/smtp form.png';
-import img9 from '../Assets/todoapp.png';
-import img10 from '../Assets/Calculator.png';
-import img11 from '../Assets/beach resort.png';
-import img12 from '../Assets/facebook clone.png';
-import img13 from '../Assets/Registration form.png';
-import img14 from '../Assets/batar batar app.png';
+import img1 from "../Assets/KStarwebsite.png";
+import img2 from "../Assets/CRM.png";
+import img3 from "../Assets/EMS.png";
+import img4 from "../Assets/TweetX.png";
+import img5 from "../Assets/Punebizz.png";
+import img6 from "../Assets/Agrovenom.png";
+import img7 from "../Assets/Lightbulb.png";
+import img8 from "../Assets/music app.png";
+import img9 from "../Assets/Wetherforcast app.png";
+import img10 from "../Assets/oldwebsite.png";
+import img11 from "../Assets/smtp form.png";
+import img12 from "../Assets/todoapp.png";
+import img13 from "../Assets/Calculator.png";
+import img14 from "../Assets/beach resort.png";
+import img15 from "../Assets/facebook clone.png";
+import img16 from "../Assets/Registration form.png";
+import img17 from "../Assets/batar batar app.png";
 
 function Coding() {
   const navigate = useNavigate();
@@ -48,20 +51,87 @@ function Coding() {
 
   // Project images with links
   const projectsData = [
-    { src: img1, alt: 'React TweetX', link: 'https://krishnadolas.github.io/ReactTweetX/' },
-    { src: img2, alt: 'PuneBizz', link: 'https://krishnadolas.github.io/Punebizz/' },
-    { src: img3, alt: 'Agrovenom', link: 'https://krishnadolas.github.io/Agrovenom/' },
-    { src: img4, alt: 'Lightbulb', link: 'https://krishnadolas.github.io/bulb-on-off-fun/' },
-    { src: img5, alt: 'Music App', link: 'https://krishnadolas.github.io/Musicapp/' },
-    { src: img6, alt: 'Weather Forecast', link: 'https://krishnadolas.github.io/Weatherforcast/' },
-    { src: img7, alt: 'Old Website', link: 'https://krishnadolas.github.io/bootstraptempvenom.github.io/' },
-    { src: img8, alt: 'SMTP Form', link: 'https://krishnadolas.github.io/venomsmtpform/' },
-    { src: img9, alt: 'Todo App', link: 'https://krishnadolas.github.io/todoapp/' },
-    { src: img10, alt: 'Calculator', link: 'https://krishnadolas.github.io/calculator.io/' },
-    { src: img11, alt: 'Beach Resort', link: 'https://krishnadolas.github.io/ReactBeachResort/' },
-    { src: img12, alt: 'Facebook Clone', link: 'https://krishnadolas.github.io/fbclone/' },
-    { src: img13, alt: 'Registration Form', link: 'https://registration-using-mern.onrender.com/' },
-    { src: img14, alt: 'Batar Batar App', link: 'https://batar-batar-app.vercel.app/' },
+    {
+      src: img1,
+      alt: "Kisaanstar E-Commerce Website",
+      link: "https://kisaanstar.com/",
+    },
+    {
+      src: img2,
+      alt: "CRM",
+      link: "https://kisaanstar.com/advisormemberlogin",
+    },
+    { src: img3, alt: "EMS", link: "https://ems-kappa-rosy.vercel.app/login" },
+    {
+      src: img4,
+      alt: "React TweetX",
+      link: "https://krishnadolas.github.io/ReactTweetX/",
+    },
+    {
+      src: img5,
+      alt: "PuneBizz",
+      link: "https://krishnadolas.github.io/Punebizz/",
+    },
+    {
+      src: img6,
+      alt: "Agrovenom",
+      link: "https://krishnadolas.github.io/Agrovenom/",
+    },
+    {
+      src: img7,
+      alt: "Lightbulb",
+      link: "https://krishnadolas.github.io/bulb-on-off-fun/",
+    },
+    {
+      src: img8,
+      alt: "Music App",
+      link: "https://krishnadolas.github.io/Musicapp/",
+    },
+    {
+      src: img9,
+      alt: "Weather Forecast",
+      link: "https://krishnadolas.github.io/Weatherforcast/",
+    },
+    {
+      src: img10,
+      alt: "Old Portfolio Website",
+      link: "https://krishnadolas.github.io/bootstraptempvenom.github.io/",
+    },
+    {
+      src: img11,
+      alt: "SMTP Form",
+      link: "https://krishnadolas.github.io/venomsmtpform/",
+    },
+    {
+      src: img12,
+      alt: "Todo App",
+      link: "https://krishnadolas.github.io/todoapp/",
+    },
+    {
+      src: img13,
+      alt: "Calculator",
+      link: "https://krishnadolas.github.io/calculator.io/",
+    },
+    {
+      src: img14,
+      alt: "Beach Resort",
+      link: "https://krishnadolas.github.io/ReactBeachResort/",
+    },
+    {
+      src: img15,
+      alt: "Facebook Clone",
+      link: "https://krishnadolas.github.io/fbclone/",
+    },
+    {
+      src: img16,
+      alt: "Registration Form",
+      link: "https://registration-using-mern.onrender.com/",
+    },
+    {
+      src: img17,
+      alt: "Batar Batar App",
+      link: "https://batar-batar-app.vercel.app/",
+    },
   ];
 
   return (
@@ -138,6 +208,25 @@ function Coding() {
           height: auto;
           display: block;
         }
+           /* Tooltip */
+  .tooltip {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .card:hover .tooltip {
+    opacity: 1;
+  }
 
         /* Stats section */
         .stats-section {
@@ -220,7 +309,7 @@ function Coding() {
           rel="noopener noreferrer"
         >
           <button className="btn-custom">
-            <GitHub style={{ fontSize: '1.5em' }} /> View GitHub Repos
+            <GitHub style={{ fontSize: "1.5em" }} /> View GitHub Repos
           </button>
         </a>
       </div>
@@ -231,6 +320,7 @@ function Coding() {
           <div className="card" key={index}>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img src={project.src} alt={project.alt} />
+              <span className="tooltip">{project.alt}</span>
             </a>
           </div>
         ))}
@@ -240,46 +330,78 @@ function Coding() {
       <section className="stats-section">
         <div className="stat">
           <i className="bi bi-emoji-smile"></i>
-          <CountUp start={0} end={happyClients} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={happyClients}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Happy Clients</p>
         </div>
         <div className="stat">
           <i className="bi bi-folder"></i>
-          <CountUp start={0} end={projects} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={projects}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Projects</p>
         </div>
         <div className="stat">
           <i className="bi bi-broadcast"></i>
-          <CountUp start={0} end={liveProjects} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={liveProjects}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Live Projects</p>
         </div>
         <div className="stat">
           <i className="bi bi-gear"></i>
-          <CountUp start={0} end={totalProjects} duration={4} separator="," style={{ fontSize: '2em' }} />
+          <CountUp
+            start={0}
+            end={totalProjects}
+            duration={4}
+            separator=","
+            style={{ fontSize: "2em" }}
+          />
           <p>Technologies Used</p>
         </div>
       </section>
 
       {/* Technologies & Skills */}
-      <h2 className="section-title" style={{ marginTop: '50px' }}>Technologies I Use</h2>
+      <h2 className="section-title" style={{ marginTop: "50px" }}>
+        Technologies I Use
+      </h2>
       <div className="technologies">
         {/* Example Progress Bars */}
         <div className="skill">
-          <h4 style={{ color: '#fdf5e6' }}>React</h4>
+          <h4 style={{ color: "#fdf5e6" }}>MERN Stack</h4>
           <div className="progress">
-            <div className="progress-bar bg-success" style={{ width: '90%' }}>90%</div>
+            <div className="progress-bar bg-success" style={{ width: "85%" }}>
+              85%
+            </div>
           </div>
         </div>
         <div className="skill">
-          <h4 style={{ color: '#fdf5e6' }}>React Native</h4>
+          <h4 style={{ color: "#fdf5e6" }}>React Native</h4>
           <div className="progress">
-            <div className="progress-bar bg-info" style={{ width: '90%' }}>90%</div>
+            <div className="progress-bar bg-info" style={{ width: "85%" }}>
+              85%
+            </div>
           </div>
         </div>
         <div className="skill">
-          <h4 style={{ color: '#fdf5e6' }}>JavaScript</h4>
+          <h4 style={{ color: "#fdf5e6" }}>JavaScript</h4>
           <div className="progress">
-            <div className="progress-bar bg-warning" style={{ width: '80%' }}>80%</div>
+            <div className="progress-bar bg-warning" style={{ width: "90%" }}>
+              90%
+            </div>
           </div>
         </div>
         {/* Add more as needed */}
