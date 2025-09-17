@@ -68,7 +68,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Affinity Express,Pune Maharashtra India
           </h4>
-          <p>Worked on Wordpress,PHP,HTML,CSS,Javascript.</p>
+          <p>Worked on React.js,Wordpress,Javascript,PHP,HTML,CSS.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           style={divstyle}
