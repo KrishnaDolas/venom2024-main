@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venom2024-main/static/css/main.7a71ace4.css",
-    "main.js": "/venom2024-main/static/js/main.c166b3d5.js",
+    "main.js": "/venom2024-main/static/js/main.dee086d3.js",
     "static/js/453.c20dc564.chunk.js": "/venom2024-main/static/js/453.c20dc564.chunk.js",
     "static/media/beach resort.png": "/venom2024-main/static/media/beach resort.52979ba42b4120b4f1e5.png",
     "static/media/Giblivenom.png": "/venom2024-main/static/media/Giblivenom.e3725b2f601d0c16692c.png",
@@ -13,8 +13,10 @@
     "static/media/music app.png": "/venom2024-main/static/media/music app.1efaca314dec91e4e939.png",
     "static/media/facebook clone.png": "/venom2024-main/static/media/facebook clone.4c77a3c9f3c828025d89.png",
     "static/media/Registration form.png": "/venom2024-main/static/media/Registration form.12b9373d0f85ef46f3be.png",
+    "static/media/fleet-tracking-dashboard.webp": "/venom2024-main/static/media/fleet-tracking-dashboard.3a1e30b5fd742cbed80d.webp",
     "static/media/jayakhanna.com.jpg": "/venom2024-main/static/media/jayakhanna.com.cee5bc451447b75937bd.jpg",
     "static/media/rajmudratransport.jpg": "/venom2024-main/static/media/rajmudratransport.68fcc605d4117239db9f.jpg",
+    "static/media/AuriBus-Tech.webp": "/venom2024-main/static/media/AuriBus-Tech.ae70b5607747ae889585.webp",
     "static/media/mystiiquereading.com.jpg": "/venom2024-main/static/media/mystiiquereading.com.7c82a1fc36b0890d28d5.jpg",
     "static/media/Calculator.png": "/venom2024-main/static/media/Calculator.56a3f85f15a877b25d45.png",
     "static/media/TweetX.png": "/venom2024-main/static/media/TweetX.e8c1d0b40304d336b69e.png",
@@ -27,7 +29,9 @@
     "static/media/sevenseascj.com.jpg": "/venom2024-main/static/media/sevenseascj.com.6980b8068ee7ebda1e68.jpg",
     "static/media/kpproduction.in.jpg": "/venom2024-main/static/media/kpproduction.in.5e1baed8cac08b126a85.jpg",
     "static/media/Emcee Manoj.com.jpg": "/venom2024-main/static/media/Emcee Manoj.com.0fc294cee1c097cd8d73.jpg",
+    "static/media/Short-Link.webp": "/venom2024-main/static/media/Short-Link.5602071cc0c573964fe0.webp",
     "static/media/nodejs.png": "/venom2024-main/static/media/nodejs.bc4b43cd5f20ba305059.png",
+    "static/media/Recipe-App.webp": "/venom2024-main/static/media/Recipe-App.b57b1423a94d478417be.webp",
     "static/media/Materialui.jpg": "/venom2024-main/static/media/Materialui.a382d14fc4059fd91091.jpg",
     "static/media/ReactNative.webp": "/venom2024-main/static/media/ReactNative.94e10e957b836129f2c7.webp",
     "static/media/react.png": "/venom2024-main/static/media/react.c5b0245f707d5ac80cac.png",
@@ -43,11 +47,11 @@
     "index.html": "/venom2024-main/index.html",
     "static/media/html.svg": "/venom2024-main/static/media/html.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "main.7a71ace4.css.map": "/venom2024-main/static/css/main.7a71ace4.css.map",
-    "main.c166b3d5.js.map": "/venom2024-main/static/js/main.c166b3d5.js.map",
+    "main.dee086d3.js.map": "/venom2024-main/static/js/main.dee086d3.js.map",
     "453.c20dc564.chunk.js.map": "/venom2024-main/static/js/453.c20dc564.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a71ace4.css",
-    "static/js/main.c166b3d5.js"
+    "static/js/main.dee086d3.js"
   ]
 }

@@ -7,20 +7,25 @@ import GitHub from "@mui/icons-material/GitHub";
 import img1 from "../Assets/KStarwebsite.png";
 import img2 from "../Assets/CRM.png";
 import img3 from "../Assets/EMS.png";
-import img4 from "../Assets/TweetX.png";
-import img5 from "../Assets/Punebizz.png";
-import img6 from "../Assets/Agrovenom.png";
-import img7 from "../Assets/Lightbulb.png";
-import img8 from "../Assets/music app.png";
-import img9 from "../Assets/Wetherforcast app.png";
-import img10 from "../Assets/oldwebsite.png";
-import img11 from "../Assets/smtp form.png";
-import img12 from "../Assets/todoapp.png";
-import img13 from "../Assets/Calculator.png";
-import img14 from "../Assets/beach resort.png";
-import img15 from "../Assets/facebook clone.png";
-import img16 from "../Assets/Registration form.png";
-import img17 from "../Assets/batar batar app.png";
+import img4 from "../Assets/AuriBus-Tech.webp";
+import img5 from "../Assets/fleet-tracking-dashboard.webp";
+import img6 from "../Assets/Short-Link.webp";
+import img7 from "../Assets/Recipe-App.webp";
+import img8 from "../Assets/TweetX.png";
+import img9 from "../Assets/Punebizz.png";
+import img10 from "../Assets/Agrovenom.png";
+import img11 from "../Assets/Lightbulb.png";
+import img12 from "../Assets/music app.png";
+import img13 from "../Assets/Wetherforcast app.png";
+import img14 from "../Assets/oldwebsite.png";
+import img15 from "../Assets/smtp form.png";
+import img16 from "../Assets/todoapp.png";
+import img17 from "../Assets/Calculator.png";
+import img18 from "../Assets/beach resort.png";
+import img19 from "../Assets/facebook clone.png";
+import img20 from "../Assets/Registration form.png";
+import img21 from "../Assets/batar batar app.png";
+
 
 function Coding() {
   const navigate = useNavigate();
@@ -62,73 +67,93 @@ function Coding() {
       link: "https://kisaanstar.com/advisormemberlogin",
     },
     { src: img3, alt: "EMS", link: "https://ems-kappa-rosy.vercel.app/login" },
-    {
+     {
       src: img4,
+      alt: "AuriBus-Tech",
+      link: "https://krishnadolas.github.io/Auribus-Technology/",
+    },
+    {
+      src: img5,
+      alt: "Fleet-Tracking-Dashboard",
+      link: "https://krishnadolas.github.io/Fleet-tracking-dashboard/",
+    },
+    {
+      src: img6,
+      alt: "Tiny-Link",
+      link: "https://krishnadolas.github.io/TinyLink/",
+    },
+    {
+      src: img7,
+      alt: "Recipe-App",
+      link: "https://krishnadolas.github.io/login",
+    },
+    {
+      src: img8,
       alt: "React TweetX",
       link: "https://krishnadolas.github.io/ReactTweetX/",
     },
     {
-      src: img5,
+      src: img9,
       alt: "PuneBizz",
       link: "https://krishnadolas.github.io/Punebizz/",
     },
     {
-      src: img6,
+      src: img10,
       alt: "Agrovenom",
       link: "https://krishnadolas.github.io/Agrovenom/",
     },
     {
-      src: img7,
+      src: img11,
       alt: "Lightbulb",
       link: "https://krishnadolas.github.io/bulb-on-off-fun/",
     },
     {
-      src: img8,
+      src: img12,
       alt: "Music App",
       link: "https://krishnadolas.github.io/Musicapp/",
     },
     {
-      src: img9,
+      src: img13,
       alt: "Weather Forecast",
       link: "https://krishnadolas.github.io/Weatherforcast/",
     },
     {
-      src: img10,
+      src: img14,
       alt: "Old Portfolio Website",
       link: "https://krishnadolas.github.io/bootstraptempvenom.github.io/",
     },
     {
-      src: img11,
+      src: img15,
       alt: "SMTP Form",
       link: "https://krishnadolas.github.io/venomsmtpform/",
     },
     {
-      src: img12,
+      src: img16,
       alt: "Todo App",
       link: "https://krishnadolas.github.io/todoapp/",
     },
     {
-      src: img13,
+      src: img17,
       alt: "Calculator",
       link: "https://krishnadolas.github.io/calculator.io/",
     },
     {
-      src: img14,
+      src: img18,
       alt: "Beach Resort",
       link: "https://krishnadolas.github.io/ReactBeachResort/",
     },
     {
-      src: img15,
+      src: img19,
       alt: "Facebook Clone",
       link: "https://krishnadolas.github.io/fbclone/",
     },
     {
-      src: img16,
+      src: img20,
       alt: "Registration Form",
       link: "https://registration-using-mern.onrender.com/",
     },
     {
-      src: img17,
+      src: img21,
       alt: "Batar Batar App",
       link: "https://batar-batar-app.vercel.app/",
     },
