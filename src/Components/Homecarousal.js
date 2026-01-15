@@ -60,7 +60,7 @@ function HomeCarousel() {
               </h1>
             </div>
             <a
-              href="https://drive.google.com/file/d/1vZpDxSwjrnzkF_4CknYusrqFN9XFTzrO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EtUN5yCmNApDxxrXSOlfV2B4gsdj0yCH/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
